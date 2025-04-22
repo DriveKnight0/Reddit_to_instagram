@@ -5,17 +5,17 @@ import google.generativeai as genai
 from instagrapi import Client
 
 # Reddit API credentials
-REDDIT_CLIENT_ID = "enhg7ZyH9bckKtVt6Y_aqw"
-REDDIT_CLIENT_SECRET = "K_RQGIuYNz3Tv87q1PKnyNyUWBNCww"
-REDDIT_USERNAME = "ExoticPea6113"
-REDDIT_PASSWORD = "Singh@12345"
+REDDIT_CLIENT_ID=your_reddit_client_id
+REDDIT_CLIENT_SECRET=your_reddit_client_secret
+REDDIT_USERNAME=your_reddit_username
+REDDIT_PASSWORD=your_reddit_password
 
-# Google AI credentials
-GOOGLE_API_KEY = "AIzaSyCMAkSfTEKDpXmwcKgy3Oj2F1scN8K3SGo"
+# Google AI credentialssk
+GOOGLE_API_KEY=your_google_api_key
 
 # Instagram credentials
-INSTAGRAM_USERNAME = "bombardino_crocodilo_0"
-INSTAGRAM_PASSWORD = "Zxcvbnm321@"
+INSTAGRAM_USERNAME=your_instagram_username
+INSTAGRAM_PASSWORD=your_instagram_password 
 
 def setup_reddit():
     """Initialize Reddit API client"""
